@@ -1,0 +1,170 @@
+body {
+background-image: url(../pictures/aside.png);
+
+}
+
+.wrapper {
+  margin: auto;
+  width: 641px;
+  background-color: white;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 115px;
+  background-color: 0000;
+  padding: 9 8 8 8px;
+  box-sizing: border-box;
+  
+}
+
+.points-header , .points-header-right  {
+  background-image: url(../pictures/points-header.png);
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 100px;
+ 
+}
+
+.points-header {
+  order: 1;
+
+}
+
+.points-header-right  {
+  order: 3;
+
+}
+
+.logo  {
+  background-image: url(../pictures/logo.png);
+  background-repeat: no-repeat;
+  width: 267px;
+  height: 77px;
+  order: 2;
+
+}
+
+.menu  {
+  margin-top: 36px;
+  display: flex;
+
+}
+
+.list {
+  width: 136px;
+  height: 207px;
+  margin-left: 40px;
+  order: 1;
+
+  }
+
+.list ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+.list ul li {
+  list-style: url(../pictures/circle-black.png);
+  font: 11px ArialMT;
+  margin-top: 8px;
+
+}
+
+#smallist  {
+  margin-left: 10px;
+  font: 9px Arial;
+
+}
+
+#red {
+  list-style: url(../pictures/circle-red.png);
+  color: a8141a;
+
+}
+  
+ .border {
+  width: 6px;
+  height: 388px;
+  background-image: url(../pictures/border.png);
+  order: 2;
+
+
+ } 
+
+ .text {
+  padding-left: 9px;
+  height: 382px;
+  width: 348px;
+  order: 3;
+
+ }
+
+ .text h2 {
+  font:  15px Arial-BoldMT;
+  margin: 0 0 20 0 ;
+  
+
+ }
+
+ .text p {
+  font: 11px ArialMT ;
+  margin: 0 0 30 0;
+
+ }
+
+.text h3 {
+  font: bold 11px Arial-BoldMT;
+  margin-bottom: 4px;
+
+}
+
+.text h4 {
+  font: 11px Arial-ItalicM;
+  margin-bottom: 4px;
+
+}
+
+.footer {
+  height: 125px;
+  width: 641px;
+  background-color: 000000;
+  margin-top: 32px;
+  display: flex;
+  flex-flow: row wrap;
+ 
+}
+
+.firm-name {
+  font: 9px ArialMT;
+  color: ffffff;
+  margin: 45 0 10 13;
+  display: inline-block;
+  order: 1;
+  flex: 1;
+  
+
+}
+
+.image-heart {
+  background-image: url(../pictures/sense-logo.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 70px;
+  order: 2;
+  margin: 17 37 0 0;
+
+  
+}
+
+.points-footer {
+  background-image: url(../pictures/points-footer.png);
+  height: 27px;
+  width: 638px;
+  margin-bottom: -6px;
+  order: 3;
+  
+}
